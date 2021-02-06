@@ -1,0 +1,21 @@
+test
+submit korntewin.b@gmail.com gTIbrchcBfOUgnVu
+test
+runMain observatory.Visualization
+runMain observatory.Extraction
+console
+;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/rq/bxt4h35s66z4sk1r2bxkvt440000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/boonchuay/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/203.6682.168/IntelliJ IDEA CE.app.plugins/Scala/repo/org.jetbrains/sbt-structure-extractor/scala_2.12/sbt_1.0/2020.3/jars/sbt-structure-extractor.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+submit korntewin.b@gmail.com w56IeXGMJfOFJvEY
+submit korntewin.b@gmail.com bG3wMo8wP0xYdJDe
+submit korntewin.b@gmail.com v1H3Rs1jSNIVrTvQ
+testOnly observatory.InteractionTestV2
+submit korntewin.b@gmail.com zEyVWwsFkZupNgM0
+submit korntewin.b@gmail.com KAQjc9jvh76EuVAj
+;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/rq/bxt4h35s66z4sk1r2bxkvt440000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/boonchuay/Library/Application Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/203.6682.168/IntelliJ IDEA CE.app.plugins/Scala/repo/org.jetbrains/sbt-structure-extractor/scala_2.12/sbt_1.0/2020.3/jars/sbt-structure-extractor.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+submit korntewin.b@gmail.com KAQjc9jvh76EuVAj
+submit korntewin.b@gmail.com 7hykoL2ghFDkQxA5
+submit korntewin.b@gmail.com zAjDZIVALOTPJOIZ
+submit korntewin.b@gmail.com HMY14BGn2JRZdD5w
+submit korntewin.b@gmail.com DWWnY3kKfo4990rg
+submit korntewin.b@gmail.com kVgmRSyPJeWt9lJO
+console

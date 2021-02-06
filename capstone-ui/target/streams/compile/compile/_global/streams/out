@@ -1,0 +1,115 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:3:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.log4j.{Level, Logger}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:4:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.{SparkConf, SparkContext}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:5:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:6:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.types.{StructField, _}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:7:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:57:75: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  protected def readCsvAsDataFrame(filename: String, schema: StructType): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:57:62: not found: type StructType[0m
+[0m[[0m[31merror[0m] [0m[0m  protected def readCsvAsDataFrame(filename: String, schema: StructType): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:197:14: not found: type SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m  val spark: SparkSession = SparkSession.builder().master("local").appName("extractRdd").getOrCreate()[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:81:60: not found: type Column[0m
+[0m[[0m[31merror[0m] [0m[0m  private[observatory] def fahrenheitToCelcius(F: Column): Column = (F - 32.0) * (5.0/9.0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:81:51: not found: type Column[0m
+[0m[[0m[31merror[0m] [0m[0m  private[observatory] def fahrenheitToCelcius(F: Column): Column = (F - 32.0) * (5.0/9.0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:94:65: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  private[observatory] def dataFrameFromFile(filename: String): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:99:34: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m        if (field contains "Id") StructField(field, StringType, nullable=true)[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:99:53: not found: value StringType[0m
+[0m[[0m[31merror[0m] [0m[0m        if (field contains "Id") StructField(field, StringType, nullable=true)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:99:65: not found: value nullable[0m
+[0m[[0m[31merror[0m] [0m[0m        if (field contains "Id") StructField(field, StringType, nullable=true)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:100:35: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m        else if (field == "temp") StructField(field, DoubleType, nullable=false)[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:100:54: not found: value DoubleType[0m
+[0m[[0m[31merror[0m] [0m[0m        else if (field == "temp") StructField(field, DoubleType, nullable=false)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:100:66: not found: value nullable[0m
+[0m[[0m[31merror[0m] [0m[0m        else if (field == "temp") StructField(field, DoubleType, nullable=false)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:101:14: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m        else StructField(field, IntegerType, nullable=false)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:101:33: not found: value IntegerType[0m
+[0m[[0m[31merror[0m] [0m[0m        else StructField(field, IntegerType, nullable=false)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:101:46: not found: value nullable[0m
+[0m[[0m[31merror[0m] [0m[0m        else StructField(field, IntegerType, nullable=false)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:103:18: not found: value StructType[0m
+[0m[[0m[31merror[0m] [0m[0m    val schema = StructType(schemaFields)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:150:65: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  private[observatory] def dataFrameFromFile(filename: String): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:155:34: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m        if (field contains "Id") StructField(field, StringType, nullable=true)[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:155:53: not found: value StringType[0m
+[0m[[0m[31merror[0m] [0m[0m        if (field contains "Id") StructField(field, StringType, nullable=true)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:155:65: not found: value nullable[0m
+[0m[[0m[31merror[0m] [0m[0m        if (field contains "Id") StructField(field, StringType, nullable=true)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:156:14: not found: value StructField[0m
+[0m[[0m[31merror[0m] [0m[0m        else StructField(field, DoubleType, nullable=false)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:156:33: not found: value DoubleType[0m
+[0m[[0m[31merror[0m] [0m[0m        else StructField(field, DoubleType, nullable=false)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:156:45: not found: value nullable[0m
+[0m[[0m[31merror[0m] [0m[0m        else StructField(field, DoubleType, nullable=false)[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:159:18: not found: value StructType[0m
+[0m[[0m[31merror[0m] [0m[0m    val schema = StructType(schemaFields)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:179:3: not found: value Logger[0m
+[0m[[0m[31merror[0m] [0m[0m  Logger.getLogger("org.apache.spark").setLevel(Level.WARN)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:179:49: not found: value Level[0m
+[0m[[0m[31merror[0m] [0m[0m  Logger.getLogger("org.apache.spark").setLevel(Level.WARN)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:182:18: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m  val sparkConf: SparkConf = new SparkConf().setMaster("local").setAppName("extractRdd")[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:182:34: not found: type SparkConf[0m
+[0m[[0m[31merror[0m] [0m[0m  val sparkConf: SparkConf = new SparkConf().setMaster("local").setAppName("extractRdd")[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:183:11: not found: type SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m  val sc: SparkContext = new SparkContext(sparkConf)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:183:30: not found: type SparkContext[0m
+[0m[[0m[31merror[0m] [0m[0m  val sc: SparkContext = new SparkContext(sparkConf)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:194:3: not found: value Logger[0m
+[0m[[0m[31merror[0m] [0m[0m  Logger.getLogger("org.apache.spark").setLevel(Level.WARN)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:194:49: not found: value Level[0m
+[0m[[0m[31merror[0m] [0m[0m  Logger.getLogger("org.apache.spark").setLevel(Level.WARN)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/boonchuay/Documents_2/functional-programming-scala/capstone/observatory/capstone-ui/../src/main/scala/observatory/models.scala:197:29: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m  val spark: SparkSession = SparkSession.builder().master("local").appName("extractRdd").getOrCreate()[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m38 errors found[0m
